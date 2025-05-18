@@ -1,6 +1,6 @@
-# ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ & ಶ್ರೀಮತಿ ಶಾಂತದೇವಿ ಕಣವಿ ಅವರ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ
+# ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ & ಶ್ರೀಮತಿ ಶಾಂತಾದೇವಿ ಕಣವಿ ಅವರ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ
 
-ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ & ಶ್ರೀಮತಿ ಶಾಂತದೇವಿ ಕಣವಿ ಅವರ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯು is a showcase of the #ServantsOfKnowledge project works @Sanchaya
+ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ & ಶ್ರೀಮತಿ ಶಾಂತಾದೇವಿ ಕಣವಿ ಅವರ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯು is a showcase of the #ServantsOfKnowledge project works @Sanchaya
 
 Check it out : https://sanchaya.org & https://sanchifoundation.org
 
