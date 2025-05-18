@@ -1,6 +1,7 @@
 {
   "books":
   [
+  [
   {
     "identifier": "kanavi.nagaradallineral0000chen",
     "title": "ನಗರದಲ್ಲಿ ನೆರಳು ಸಂಪುಟ-೯",
@@ -744,6 +745,114 @@
     "authorUrl": "https://archive.org/search.php?query=creator%3Aಚೆನ್ನವೀರ ಕಣವಿ",
     "url": "https://archive.org/details/kanavi.kannadasahithyas0000chen",
     "cover": "https://archive.org/services/img/kanavi.kannadasahithyas0000chen"
+  },
+  {
+    "identifier": "kanavi.modernkannadapoe0000chen",
+    "title": "ಆಧುನಿಕ ಕನ್ನಡ ಕಾವ್ಯ Modern Kannada Poetry",
+    "author": "ಚೆನ್ನವೀರ ಕಣವಿ",
+    "publisher": "ಕರ್ನಾಟಕ ವಿಶ್ವವಿದ್ಯಾಲಯ",
+    "info": "ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ ಅವರ ಸಾಹಿತ್ಯವನ್ನು ಕನ್ನಡಿಗರಿಗೆ ಮುಕ್ತವಾಗಿ ದೊರಕಿಸುವ ಸಲುವಾಗಿ ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯವನ್ನು ಕೈಗೆತ್ತಿಕೊಳ್ಳಲಾಗಿದೆ. ಇದನ್ನು ಸಾಕಾರಗೊಳಿಸಲು ಆಶಿಸಿ ಸಹಕರಿಸಿದ ಎಲ್ಲ ಕಣವಿ ಕುಟುಂಬ ವರ್ಗಕ್ಕೆ, ಅವಶ್ಯ ಅನುಮತಿ ನೀಡಿದ ಪ್ರಕಾಶಕರಿಗೂ ಕನ್ನಡಿಗರ ಪರವಾಗಿ ಸಂಚಯ ಧನ್ಯವಾದಗಳನ್ನು ಅರ್ಪಿಸುತ್ತದೆ. ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯ #ServantsOfKnowledge ಯೋಜನೆ ಅಡಿ ಸಾಧ್ಯವಾಗಿದೆ.",
+    "tags": "ಕನ್ನಡ ಸಾಹಿತ್ಯ; ಕಣವಿ ಸಂಚಯ; ಚೆನ್ನವೀರ ಕಣವಿ ಸಂಚಯ",
+    "level": 1976,
+    "authorUrl": "https://archive.org/search.php?query=creator%3Aಚೆನ್ನವೀರ ಕಣವಿ",
+    "url": "https://archive.org/details/kanavi.modernkannadapoe0000chen",
+    "cover": "https://archive.org/services/img/kanavi.modernkannadapoe0000chen"
+  },
+  {
+    "identifier": "kanavi.madhurachenna00000chen",
+    "title": "ಮಧುರಚೆನ್ನ",
+    "author": "ಚೆನ್ನವೀರ ಕಣವಿ",
+    "publisher": "ಕರ್ನಾಟಕ ಸಾಹಿತ್ಯ ಅಕಾಡೆಮಿ",
+    "info": "ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ ಅವರ ಸಾಹಿತ್ಯವನ್ನು ಕನ್ನಡಿಗರಿಗೆ ಮುಕ್ತವಾಗಿ ದೊರಕಿಸುವ ಸಲುವಾಗಿ ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯವನ್ನು ಕೈಗೆತ್ತಿಕೊಳ್ಳಲಾಗಿದೆ. ಇದನ್ನು ಸಾಕಾರಗೊಳಿಸಲು ಆಶಿಸಿ ಸಹಕರಿಸಿದ ಎಲ್ಲ ಕಣವಿ ಕುಟುಂಬ ವರ್ಗಕ್ಕೆ, ಅವಶ್ಯ ಅನುಮತಿ ನೀಡಿದ ಪ್ರಕಾಶಕರಿಗೂ ಕನ್ನಡಿಗರ ಪರವಾಗಿ ಸಂಚಯ ಧನ್ಯವಾದಗಳನ್ನು ಅರ್ಪಿಸುತ್ತದೆ. ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯ #ServantsOfKnowledge ಯೋಜನೆ ಅಡಿ ಸಾಧ್ಯವಾಗಿದೆ.",
+    "tags": "ಕನ್ನಡ ಸಾಹಿತ್ಯ; ಕಣವಿ ಸಂಚಯ; ಚೆನ್ನವೀರ ಕಣವಿ ಸಂಚಯ",
+    "level": 2003,
+    "authorUrl": "https://archive.org/search.php?query=creator%3Aಚೆನ್ನವೀರ ಕಣವಿ",
+    "url": "https://archive.org/details/kanavi.madhurachenna00000chen",
+    "cover": "https://archive.org/services/img/kanavi.madhurachenna00000chen"
+  },
+  {
+    "identifier": "govmysore.sribasavesvara0000unse",
+    "title": "Sri Basavesvara",
+    "author": "ಚೆನ್ನವೀರ ಕಣವಿ",
+    "publisher": "Government Of Mysore",
+    "info": "ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ ಅವರ ಸಾಹಿತ್ಯವನ್ನು ಕನ್ನಡಿಗರಿಗೆ ಮುಕ್ತವಾಗಿ ದೊರಕಿಸುವ ಸಲುವಾಗಿ ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯವನ್ನು ಕೈಗೆತ್ತಿಕೊಳ್ಳಲಾಗಿದೆ. ಇದನ್ನು ಸಾಕಾರಗೊಳಿಸಲು ಆಶಿಸಿ ಸಹಕರಿಸಿದ ಎಲ್ಲ ಕಣವಿ ಕುಟುಂಬ ವರ್ಗಕ್ಕೆ, ಅವಶ್ಯ ಅನುಮತಿ ನೀಡಿದ ಪ್ರಕಾಶಕರಿಗೂ ಕನ್ನಡಿಗರ ಪರವಾಗಿ ಸಂಚಯ ಧನ್ಯವಾದಗಳನ್ನು ಅರ್ಪಿಸುತ್ತದೆ. ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯ #ServantsOfKnowledge ಯೋಜನೆ ಅಡಿ ಸಾಧ್ಯವಾಗಿದೆ.",
+    "tags": "ಕನ್ನಡ ಸಾಹಿತ್ಯ; ಕಣವಿ ಸಂಚಯ; ಚೆನ್ನವೀರ ಕಣವಿ ಸಂಚಯ",
+    "level": 1967,
+    "authorUrl": "https://archive.org/search.php?query=creator%3Aಚೆನ್ನವೀರ ಕಣವಿ",
+    "url": "https://archive.org/details/govmysore.sribasavesvara0000unse",
+    "cover": "https://archive.org/services/img/govmysore.sribasavesvara0000unse"
+  },
+  {
+    "identifier": "kanavi.speech.Kuvempu_Sahitya_Darshana_Vichara_Sankirana-2012",
+    "title": "Kanavi - Speech -  Kuvempu Sahitya Darshana Vichara Sankirana 2012",
+    "author": "ಚೆನ್ನವೀರ ಕಣವಿ",
+    "publisher": "",
+    "info": "ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ ಅವರ ಸಾಹಿತ್ಯವನ್ನು ಕನ್ನಡಿಗರಿಗೆ ಮುಕ್ತವಾಗಿ ದೊರಕಿಸುವ ಸಲುವಾಗಿ ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯವನ್ನು ಕೈಗೆತ್ತಿಕೊಳ್ಳಲಾಗಿದೆ. ಇದನ್ನು ಸಾಕಾರಗೊಳಿಸಲು ಆಶಿಸಿ ಸಹಕರಿಸಿದ ಎಲ್ಲ ಕಣವಿ ಕುಟುಂಬ ವರ್ಗಕ್ಕೆ, ಅವಶ್ಯ ಅನುಮತಿ ನೀಡಿದ ಪ್ರಕಾಶಕರಿಗೂ ಕನ್ನಡಿಗರ ಪರವಾಗಿ ಸಂಚಯ ಧನ್ಯವಾದಗಳನ್ನು ಅರ್ಪಿಸುತ್ತದೆ. ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯ #ServantsOfKnowledge ಯೋಜನೆ ಅಡಿ ಸಾಧ್ಯವಾಗಿದೆ.",
+    "tags": "ಕನ್ನಡ ಸಾಹಿತ್ಯ; ಕಣವಿ ಸಂಚಯ; ಚೆನ್ನವೀರ ಕಣವಿ ಸಂಚಯ",
+    "level": 2012,
+    "authorUrl": "https://archive.org/search.php?query=creator%3Aಚೆನ್ನವೀರ ಕಣವಿ",
+    "url": "https://archive.org/details/kanavi.speech.Kuvempu_Sahitya_Darshana_Vichara_Sankirana-2012",
+    "cover": "https://archive.org/services/img/kanavi.speech.Kuvempu_Sahitya_Darshana_Vichara_Sankirana-2012"
+  },
+  {
+    "identifier": "kanavi.speech.nrupatunga.prashasti_pradhana_samarambha_2019",
+    "title": "Kanavi - Speech -  nrupatunga.prashasti pradhana samarambha 2019",
+    "author": "ಚೆನ್ನವೀರ ಕಣವಿ",
+    "publisher": "",
+    "info": "ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ ಅವರ ಸಾಹಿತ್ಯವನ್ನು ಕನ್ನಡಿಗರಿಗೆ ಮುಕ್ತವಾಗಿ ದೊರಕಿಸುವ ಸಲುವಾಗಿ ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯವನ್ನು ಕೈಗೆತ್ತಿಕೊಳ್ಳಲಾಗಿದೆ. ಇದನ್ನು ಸಾಕಾರಗೊಳಿಸಲು ಆಶಿಸಿ ಸಹಕರಿಸಿದ ಎಲ್ಲ ಕಣವಿ ಕುಟುಂಬ ವರ್ಗಕ್ಕೆ, ಅವಶ್ಯ ಅನುಮತಿ ನೀಡಿದ ಪ್ರಕಾಶಕರಿಗೂ ಕನ್ನಡಿಗರ ಪರವಾಗಿ ಸಂಚಯ ಧನ್ಯವಾದಗಳನ್ನು ಅರ್ಪಿಸುತ್ತದೆ. ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯ #ServantsOfKnowledge ಯೋಜನೆ ಅಡಿ ಸಾಧ್ಯವಾಗಿದೆ.",
+    "tags": "ಕನ್ನಡ ಸಾಹಿತ್ಯ; ಕಣವಿ ಸಂಚಯ; ಚೆನ್ನವೀರ ಕಣವಿ ಸಂಚಯ",
+    "level": 2019,
+    "authorUrl": "https://archive.org/search.php?query=creator%3Aಚೆನ್ನವೀರ ಕಣವಿ",
+    "url": "https://archive.org/details/kanavi.speech.nrupatunga.prashasti_pradhana_samarambha_2019",
+    "cover": "https://archive.org/services/img/kanavi.speech.nrupatunga.prashasti_pradhana_samarambha_2019"
+  },
+  {
+    "identifier": "kanavi.speech.4th_Vishva_Kannada_Sammelna-Washington-Meriland-Sep1-3.2016",
+    "title": "Kanavi - Speech -  4th Vishva Kannada Sammelna Washington Meriland Sep1 3.2016",
+    "author": "ಚೆನ್ನವೀರ ಕಣವಿ",
+    "publisher": "",
+    "info": "ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ ಅವರ ಸಾಹಿತ್ಯವನ್ನು ಕನ್ನಡಿಗರಿಗೆ ಮುಕ್ತವಾಗಿ ದೊರಕಿಸುವ ಸಲುವಾಗಿ ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯವನ್ನು ಕೈಗೆತ್ತಿಕೊಳ್ಳಲಾಗಿದೆ. ಇದನ್ನು ಸಾಕಾರಗೊಳಿಸಲು ಆಶಿಸಿ ಸಹಕರಿಸಿದ ಎಲ್ಲ ಕಣವಿ ಕುಟುಂಬ ವರ್ಗಕ್ಕೆ, ಅವಶ್ಯ ಅನುಮತಿ ನೀಡಿದ ಪ್ರಕಾಶಕರಿಗೂ ಕನ್ನಡಿಗರ ಪರವಾಗಿ ಸಂಚಯ ಧನ್ಯವಾದಗಳನ್ನು ಅರ್ಪಿಸುತ್ತದೆ. ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯ #ServantsOfKnowledge ಯೋಜನೆ ಅಡಿ ಸಾಧ್ಯವಾಗಿದೆ.",
+    "tags": "ಕನ್ನಡ ಸಾಹಿತ್ಯ; ಕಣವಿ ಸಂಚಯ; ಚೆನ್ನವೀರ ಕಣವಿ ಸಂಚಯ",
+    "level": 2016,
+    "authorUrl": "https://archive.org/search.php?query=creator%3Aಚೆನ್ನವೀರ ಕಣವಿ",
+    "url": "https://archive.org/details/kanavi.speech.4th_Vishva_Kannada_Sammelna-Washington-Meriland-Sep1-3.2016",
+    "cover": "https://archive.org/services/img/kanavi.speech.4th_Vishva_Kannada_Sammelna-Washington-Meriland-Sep1-3.2016"
+  },
+  {
+    "identifier": "kanavi.speech.Dr-Betageri-Krishnasharma-Kadambari-Prashasti-Dr-SLBairappa-2014a",
+    "title": "Kanavi - Speech -  Dr. Betageri Krishnasharma Kadambari Prashasti .DrSLBairappa.2014",
+    "author": "ಚೆನ್ನವೀರ ಕಣವಿ",
+    "publisher": "",
+    "info": "ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ ಅವರ ಸಾಹಿತ್ಯವನ್ನು ಕನ್ನಡಿಗರಿಗೆ ಮುಕ್ತವಾಗಿ ದೊರಕಿಸುವ ಸಲುವಾಗಿ ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯವನ್ನು ಕೈಗೆತ್ತಿಕೊಳ್ಳಲಾಗಿದೆ. ಇದನ್ನು ಸಾಕಾರಗೊಳಿಸಲು ಆಶಿಸಿ ಸಹಕರಿಸಿದ ಎಲ್ಲ ಕಣವಿ ಕುಟುಂಬ ವರ್ಗಕ್ಕೆ, ಅವಶ್ಯ ಅನುಮತಿ ನೀಡಿದ ಪ್ರಕಾಶಕರಿಗೂ ಕನ್ನಡಿಗರ ಪರವಾಗಿ ಸಂಚಯ ಧನ್ಯವಾದಗಳನ್ನು ಅರ್ಪಿಸುತ್ತದೆ. ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯ #ServantsOfKnowledge ಯೋಜನೆ ಅಡಿ ಸಾಧ್ಯವಾಗಿದೆ.",
+    "tags": "ಕನ್ನಡ ಸಾಹಿತ್ಯ; ಕಣವಿ ಸಂಚಯ; ಚೆನ್ನವೀರ ಕಣವಿ ಸಂಚಯ",
+    "level": 2014,
+    "authorUrl": "https://archive.org/search.php?query=creator%3Aಚೆನ್ನವೀರ ಕಣವಿ",
+    "url": "https://archive.org/details/kanavi.speech.Dr-Betageri-Krishnasharma-Kadambari-Prashasti-Dr-SLBairappa-2014a",
+    "cover": "https://archive.org/services/img/kanavi.speech.Dr-Betageri-Krishnasharma-Kadambari-Prashasti-Dr-SLBairappa-2014a"
+  },
+  {
+    "identifier": "kanavi.speech.Gokaakprashasti2014",
+    "title": "Kanavi - Speech -  Gokaakprashasti 2014",
+    "author": "ಚೆನ್ನವೀರ ಕಣವಿ",
+    "publisher": "",
+    "info": "ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ ಅವರ ಸಾಹಿತ್ಯವನ್ನು ಕನ್ನಡಿಗರಿಗೆ ಮುಕ್ತವಾಗಿ ದೊರಕಿಸುವ ಸಲುವಾಗಿ ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯವನ್ನು ಕೈಗೆತ್ತಿಕೊಳ್ಳಲಾಗಿದೆ. ಇದನ್ನು ಸಾಕಾರಗೊಳಿಸಲು ಆಶಿಸಿ ಸಹಕರಿಸಿದ ಎಲ್ಲ ಕಣವಿ ಕುಟುಂಬ ವರ್ಗಕ್ಕೆ, ಅವಶ್ಯ ಅನುಮತಿ ನೀಡಿದ ಪ್ರಕಾಶಕರಿಗೂ ಕನ್ನಡಿಗರ ಪರವಾಗಿ ಸಂಚಯ ಧನ್ಯವಾದಗಳನ್ನು ಅರ್ಪಿಸುತ್ತದೆ. ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯ #ServantsOfKnowledge ಯೋಜನೆ ಅಡಿ ಸಾಧ್ಯವಾಗಿದೆ.",
+    "tags": "ಕನ್ನಡ ಸಾಹಿತ್ಯ; ಕಣವಿ ಸಂಚಯ; ಚೆನ್ನವೀರ ಕಣವಿ ಸಂಚಯ",
+    "level": 2014,
+    "authorUrl": "https://archive.org/search.php?query=creator%3Aಚೆನ್ನವೀರ ಕಣವಿ",
+    "url": "https://archive.org/details/kanavi.speech.Gokaakprashasti2014",
+    "cover": "https://archive.org/services/img/kanavi.speech.Gokaakprashasti2014"
+  },
+  {
+    "identifier": "kanavi.speech.Geethotsava-Davanagere-2012",
+    "title": "Kanavi - Speech -  Geethotsava Davanagere 2012",
+    "author": "ಚೆನ್ನವೀರ ಕಣವಿ",
+    "publisher": "",
+    "info": "ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ ಅವರ ಸಾಹಿತ್ಯವನ್ನು ಕನ್ನಡಿಗರಿಗೆ ಮುಕ್ತವಾಗಿ ದೊರಕಿಸುವ ಸಲುವಾಗಿ ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯವನ್ನು ಕೈಗೆತ್ತಿಕೊಳ್ಳಲಾಗಿದೆ. ಇದನ್ನು ಸಾಕಾರಗೊಳಿಸಲು ಆಶಿಸಿ ಸಹಕರಿಸಿದ ಎಲ್ಲ ಕಣವಿ ಕುಟುಂಬ ವರ್ಗಕ್ಕೆ, ಅವಶ್ಯ ಅನುಮತಿ ನೀಡಿದ ಪ್ರಕಾಶಕರಿಗೂ ಕನ್ನಡಿಗರ ಪರವಾಗಿ ಸಂಚಯ ಧನ್ಯವಾದಗಳನ್ನು ಅರ್ಪಿಸುತ್ತದೆ. ಈ ಡಿಜಿಟಲೀಕರಣದ ಕಾರ್ಯ #ServantsOfKnowledge ಯೋಜನೆ ಅಡಿ ಸಾಧ್ಯವಾಗಿದೆ.",
+    "tags": "ಕನ್ನಡ ಸಾಹಿತ್ಯ; ಕಣವಿ ಸಂಚಯ; ಚೆನ್ನವೀರ ಕಣವಿ ಸಂಚಯ",
+    "level": 2012,
+    "authorUrl": "https://archive.org/search.php?query=creator%3Aಚೆನ್ನವೀರ ಕಣವಿ",
+    "url": "https://archive.org/details/kanavi.speech.Geethotsava-Davanagere-2012",
+    "cover": "https://archive.org/services/img/kanavi.speech.Geethotsava-Davanagere-2012"
   }
 ]
 }
