@@ -93,47 +93,7 @@
             <div class="span12 row-fluid">
                 <p class="span1">Filter by :</p>
                 <ul id="filterBy">
-                    <li><a href="#" data-level="any" class="active" title="filter books by All">All</a></li>
-                    <li><a href="#" data-level="ಕಣವಿ ಸಂಚಯ" title="filter books by year">ಕಣವಿ ಸಂಚಯ</a></li>
-                    <li><a href="#" data-level="ಶಾಂತಾದೇವಿ ಸಂಚಯ" title="filter books by year">ಶಾಂತಾದೇವಿ ಸಂಚಯ</a></li>
-                    <li><a href="#" data-level="1949" title="filter books by year">1949</a></li>
-                    <li><a href="#" data-level="1950" title="filter books by year">1950</a></li>
-                    <li><a href="#" data-level="1953" title="filter books by year">1953</a></li>
-                    <li><a href="#" data-level="1962" title="filter books by year">1962</a></li>
-                    <li><a href="#" data-level="1965" title="filter books by year">1965</a></li>
-                    <li><a href="#" data-level="1966" title="filter books by year">1966</a></li>
-                    <li><a href="#" data-level="1967" title="filter books by year">1967</a></li>
-                    <li><a href="#" data-level="1969" title="filter books by year">1969</a></li>
-                    <li><a href="#" data-level="1971" title="filter books by year">1971</a></li>
-                    <li><a href="#" data-level="1973" title="filter books by year">1973</a></li>
-                    <li><a href="#" data-level="1974" title="filter books by year">1974</a></li>
-                    <li><a href="#" data-level="1974" title="filter books by year">1976</a></li>
-                    <li><a href="#" data-level="1978" title="filter books by year">1978</a></li>
-                    <li><a href="#" data-level="1980" title="filter books by year">1980</a></li>
-                    <li><a href="#" data-level="1986" title="filter books by year">1986</a></li>
-                    <li><a href="#" data-level="1987" title="filter books by year">1987</a></li>
-                    <li><a href="#" data-level="1990" title="filter books by year">1990</a></li>
-                    <li><a href="#" data-level="1991" title="filter books by year">1991</a></li>
-                    <li><a href="#" data-level="1992" title="filter books by year">1992</a></li>
-                    <li><a href="#" data-level="1994" title="filter books by year">1994</a></li>
-                    <li><a href="#" data-level="1996" title="filter books by year">1996</a></li>
-                    <li><a href="#" data-level="1997" title="filter books by year">1997</a></li>
-                    <li><a href="#" data-level="1999" title="filter books by year">1999</a></li>
-                    <li><a href="#" data-level="2003" title="filter books by year">2002</a></li>
-                    <li><a href="#" data-level="2003" title="filter books by year">2003</a></li>
-                    <li><a href="#" data-level="2007" title="filter books by year">2007</a></li>
-                    <li><a href="#" data-level="2008" title="filter books by year">2008</a></li>
-                    <li><a href="#" data-level="2009" title="filter books by year">2009</a></li>
-                    <li><a href="#" data-level="2011" title="filter books by year">2011</a></li>
-                    <li><a href="#" data-level="2012" title="filter books by year">2012</a></li>
-                    <li><a href="#" data-level="1974" title="filter books by year">2013</a></li>
-                    <li><a href="#" data-level="2014" title="filter books by year">2014</a></li>
-                    <li><a href="#" data-level="2015" title="filter books by year">2015</a></li>
-                    <li><a href="#" data-level="2016" title="filter books by year">2016</a></li>
-                    <li><a href="#" data-level="2018" title="filter books by year">2018</a></li>
-                    <li><a href="#" data-level="2019" title="filter books by year">2019</a></li>
-                    <li><a href="#" data-level="2021" title="filter books by year">2021</a></li>
-                    <li><a href="#" data-level="Advanced" title="filter books by Advanced">Advanced</a></li>
+                    <li><a href="#" data-level="any" class="active">All</a></li>
                 </ul>
             </div>
         </div>
@@ -152,66 +112,94 @@
           Each book has its own copyright/license. Please read the metadata on the book page. </p>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
     <script src="./js/mustache.js"></script>
 
-    <script type="text/javascript">
+        <script type="text/javascript">
+    (function() {
+        var $filterBy, $issuesWrap, $reader, $readerFrame,
+            currentFilter = 'any';
 
-    function randOrd(){
-      return (Math.round(Math.random())-0.5);
-    }
+        function getYears(books) {
+            var seen = {};
+            return books.map(function(b) { return String(b.level); })
+                       .filter(function(y) {
+                           if (y === '' || seen[y]) return false;
+                           seen[y] = true;
+                           return true;
+                       })
+                       .sort(function(a, b) { return a - b; });
+        }
 
-    function filterBy() {
-        var // var's sort by
-            active = 'active',
-            btFilterBy = $('#filterBy').find('a'),
-            booksection = $('.booksection');
+        function renderFilters(years) {
+            years.forEach(function(year) {
+                $filterBy.append('<li><a href="#" data-level="' + year + '">' + year + '</a></li>');
+            });
+        }
 
-        // interaction filter by level
-        btFilterBy.on('click', function(e) {
-            e.preventDefault();
-            var level = $(this).data('level');
-            if (level==='any') {
-                // restore all books
-                booksection.show();
+        function filterBooks(level) {
+            if (level === 'any') {
+                $('.booksection').show();
             } else {
-                booksection.not('.' + level).fadeOut('fast');
-                booksection.filter('.' + level).fadeIn('fast');
+                $('.booksection').hide();
+                $('.booksection.' + level).show();
             }
+            currentFilter = level;
+        }
 
-            btFilterBy.removeClass(active);
-            $(this).addClass(active);
+        function initFilters() {
+            $filterBy.on('click', 'a', function(e) {
+                e.preventDefault();
+                var level = $(this).data('level');
+                if (level === currentFilter) return;
+                $filterBy.find('a').removeClass('active');
+                $(this).addClass('active');
+                filterBooks(level);
+            });
+        }
+
+        $(document).ready(function() {
+            $filterBy = $('#filterBy');
+            $issuesWrap = $('#issueswrap');
+            $reader = $('#bookreader');
+            $readerFrame = $('#readerFrame');
+
+            $.getJSON('./issues.json?' + Date.now())
+            .done(function(data) {
+                var years = getYears(data.books);
+                renderFilters(years);
+                initFilters();
+                data.books.sort(function() { return 0.5 - Math.random(); });
+                $issuesWrap.html(Mustache.to_html($('#booktpl').html(), data));
+            })
+            .fail(function(jqXHR, textStatus, error) {
+                console.error('Failed to load books:', textStatus, error);
+            });
+
+            $('#jsinfos').hide();
+            $('#infos').on('click', function(e) {
+                e.preventDefault();
+                $('#jsinfos').slideToggle();
+            });
+
+            $issuesWrap.on('click', '.book-link', function(e) {
+                e.preventDefault();
+                var identifier = $(this).data('identifier');
+                $readerFrame.attr('src', 'https://archive.org/stream/' + identifier + '/?ui=embed');
+                $reader.show();
+            });
+
+            $('#closeReader').on('click', function(e) {
+                e.preventDefault();
+                $reader.hide();
+                $readerFrame.attr('src', '');
+            });
         });
-    }
-
-    $(document).ready(function() {
-        // get the data and compile into the html template
-        $.getJSON('./issues.json?' + Math.random(), function(data) {
-            var template = $('#booktpl').html(),
-                issuesWrap = $('#issueswrap');
-
-            data.books.sort(randOrd);
-            issuesWrap.html(Mustache.to_html(template, data));
-
-            filterBy();
-        });
-
-        var // var's info
-            jsInfos = $('#jsinfos'),
-            btInfo = $('a.#infos');
-
-        // interaction show more info about it
-        jsInfos.hide();
-        btInfo.on('click', function(){
-          jsInfos.slideToggle();
-        });
-    });
-    </script>
-
-    <script id="booktpl" type="text/template">
+    })();
+    </script><script id="booktpl" type="text/template">
         {{#books}}
          <div class="span4 booksection {{level}}">
-          <a  target="_blank" href="{{url}}">
+          <a class="book-link" href="{{url}}" data-identifier="{{identifier}}">
            <div class="view"> ಓದಿರಿ </div>
 
            <div title="{{ title }}" id="cover" style="background:black url('{{cover}}') no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;">
@@ -233,5 +221,11 @@
 
       gtag('config', 'G-4R3DJ46QED');
     </script>
-  </body>
+  
+<!-- Book Reader Modal -->
+<div id="bookreader">
+    <a href="#" id="closeReader">&times;</a>
+    <iframe id="readerFrame" src=""></iframe>
+</div>
+</body>
 </html>
